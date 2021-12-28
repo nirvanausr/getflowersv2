@@ -30,3 +30,18 @@ margin-right: 100px;
 
 
 }
+.media{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+
+
+
+}
+.cadre{
+width: 40px;
+margin: 10px;
+
+
+}
