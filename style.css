@@ -1,0 +1,32 @@
+/*l id du carousel*/
+#carouselExampleCaptions
+{
+ width: 70%;
+
+ margin: 0 auto;
+ margin-top: 50 px;
+ margin-bottom: 50px;
+
+
+}
+
+/*les image */
+.carousel-item img {
+width: 50%;
+height: 400px;
+
+
+
+
+
+}
+
+#liste{
+  margin-top: 40px;
+
+margin-left: 100px;
+margin-right: 100px;
+
+
+
+}
