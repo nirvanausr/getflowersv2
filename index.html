@@ -9,30 +9,42 @@
     <link rel="stylesheet" href="style.css">
     <title>GetFlowers.com</title>
 </head>
+
+
 <body>
     <!--this is own header's web site-->
     <header>
 
-        <nav class="navbar navbar-expand-md navbar-light " style="background-color: #00cec9;">
-            <a href=""><img src="flow.png" alt="" height="100px"></a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="flow.png" alt=""height="100px"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item ">
+                    <a class="nav-link active text-white fs-4" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white fs-4" href="#">Collection</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white fs-4" href="#">New</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white fs-4" href="#">Contact Us</a>
+                  </li>
 
-            <button type="button" class="navbar-toggler bg-light">
-                <span class="navbar-toggler-ico"></span>
 
-            </button>
-
-
-            <div class="collapse navbar-collapse jsutify-content-between">
-
-            <ul class="navbar-nav" style="display: flex; justify-content:flex-end;  ">
-                <li class="nav-item "><a href="" class="nav-link text-light font-weight-bold  text-uppercase px-3">Home</a></li>
-                <li class="nav-item "><a href="" class="nav-link text-light font-weight-bold  text-uppercase px-3">New Collection</a></li>
-                <li class="nav-item "><a href="" class="nav-link text-light font-weight-bold  text-uppercase px-3">About Us</a></li>
-                <li class="nav-item "><a href="" class="nav-link text-light font-weight-bold  text-uppercase px-3">Login</a></li>
-
-            </ul>
-        </div>
-        </nav>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
 
     </header>
     <div class="nav justify-content-center border-top border-bottom"> <p>
