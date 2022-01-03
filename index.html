@@ -18,7 +18,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-dark">
             <div class="container-fluid">
               <a class="navbar-brand" href="#"><img src="flow.png" alt=""height="100px"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -28,7 +28,7 @@
                   </li>
                   <li class="nav-item">
                     <a class="nav-link text-white fs-4" href="#">Collection</a>
-                  </li> 
+                  </li>
                   <li class="nav-item">
                     <a class="nav-link text-white fs-4" href="#">New</a>
                   </li>
@@ -47,11 +47,20 @@
           </nav>
 
     </header>
-    <div class="nav justify-content-center border-top border-bottom"> <p>
+    <div class="nav justify-content-center border-top border-bottom"> <p id="demo">
         Livraison de fleurs d'exception à Pbejaia. Nos artisans fleuristes seront ravis de vous aider au 034 12 99 66
 
 
-    </p></div>
+    </p>
+    <!--du code js-->
+    <button  class="btn-primary" onclick="document.getElementById('demo').innerHTML = Date()">The time is?</button>
+
+  <!--change sont contenu-->
+  <button onclick="this.innerHTML = Date()">The time is?</button>
+ <!---->
+ <button onclick="displayDate()">The time is?</button>
+
+  </div>
     <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel" data-interval="1500" >
         <!--les bouttons du carousel-->
        <div class="carousel-indicators">
@@ -100,14 +109,81 @@
 
        </div>
        <!--le sboutons gauche et droite-->
-       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-           <span class="visually-hidden">Previous</span>
-         </button>
-         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-           <span class="visually-hidden">Next</span>
-         </button>
+
+
+   </div>
+
+   <div class="row row-cols-1 row-cols-md-2 g-4">
+
+   <!--la carte -->
+   <div class="col">
+    <div class="card">
+      <img src="pinkb.jpg" class="card-img-top" alt="..." width="400 px">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card">
+      <img src="purple.jpg" class="card-img-top" alt="..." width="400 px">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card">
+      <img src="org" class="card-img-top" alt="..." width="400 px">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card">
+      <img src="mix.jpg" class="card-img-top" alt="..." width="400 px">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card">
+      <img src="white.jpg" class="card-img-top" alt="..." width="400 px">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
    </div>
 <footer class="bg-dark">
@@ -118,7 +194,7 @@
 <a href=""><img class="cadre" src="gmail.png" alt=""></a>
 </div>
  <!-- Copyright -->
- <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+ <div class="text-center p-3 text-white" style="background-color: rgba(0, 0, 0, 0.2);">
     © 2020 Copyright:
     <a class="text-white" href="https://nirvanausr.github.io/getflowersv2/">GetFlowers.com</a>
   </div>
@@ -127,4 +203,5 @@
 </footer>
 
 </body>
+<script src="bases.js"></script>
 </html>
